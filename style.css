@@ -1,0 +1,480 @@
+body {
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding-top: 27px;
+    background-color: #F4F9E2;
+    min-height: 840px;
+    background: url('img/background.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: right top, right top;
+}
+
+.main_nav li a {
+    color: #22356F;
+    border: 0;
+    border-bottom: 1px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header_top {
+    min-height: 840px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main_nav {
+    display: inline-flex;
+    text-align: center;
+    width: 233px;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #62D0DF;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    margin-top: 27px;
+    margin-left: 179px;
+}
+
+ul.main_nav li {
+    padding-bottom: 15px;
+}
+
+ul.main_nav li:hover {
+    border-bottom: 1px solid grey;
+}
+
+.btn {
+    margin-top: -50px;
+    margin-left: 540px;
+    position: absolute;
+    background-color: #62D0DF;
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    padding-top: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.header_middle {
+    margin-top: 187px;
+}
+
+.header_help {
+    font-size: 48px;
+    width: 484px;
+    height: 167px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 178px;
+    color: #22356F;
+    line-height: 53px;
+}
+
+p.header_text {
+    position: absolute;
+    color: #22356F;
+    width: 469px;
+    height: 161px;
+    font-size: 24px;
+    margin-top: 240px;
+    margin-left: 178px;
+    line-height: 42px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+}
+
+.header_middle_btn a {
+    position: absolute;
+    width: 130px;
+    height: 35px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    margin-top: 505px;
+}
+
+.btn_left_a {
+    margin-left: -1290px;
+    text-transform: uppercase;
+}
+
+.left_a {
+    color: white;
+    border: 1px solid #F9B640;
+    background: #F9B640;
+    padding-top: 10px;
+}
+
+.btn_right_a {
+    margin-left: -1000px;
+    text-transform: uppercase;
+    ;
+}
+
+.right_a {
+    color: #FAB63E;
+    border: 1px solid #F4F9E2;
+    padding-top: 10px;
+}
+
+.thrive {
+    display: flex;
+    justify-content: space-between;
+    height: 604px;
+    padding-left: 179px;
+    background: #62D0DF;
+    color: #FFFFFF;
+}
+
+.thrive_title {
+    font-size: 36px;
+    line-height: 27px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 75px;
+}
+
+.thrive_text {
+    padding-top: 151px;
+}
+
+.thrive_text p {
+    max-width: 555px;
+    font-family: 'Ubuntu', sans-serif;
+    height: 235px;
+    line-height: 1.5;
+    font-size: 24px;
+}
+
+.about {
+    padding-top: 150px;
+}
+
+.about_text {
+    width: 592px;
+    font-size: 24px;
+    margin-left: 564px;
+    text-align: left;
+    line-height: 33.75px;
+    color: #22356F;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 75px;
+}
+
+.about h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    color: #22356F;
+    margin-left: 106px;
+    font-weight: lighter;
+}
+
+.about_middle h3 {
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    color: rgba(34, 53, 111, 0.5);
+    margin-bottom: 24px;
+}
+
+.about_list {
+    display: flex;
+}
+
+.about_item {
+    min-width: 25%;
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_item span {
+    display: inline-block;
+    width: 255px;
+    height: 72px;
+    border-bottom: 1px solid white;
+}
+
+.about_item_first {
+    background: #FFE2DE;
+}
+
+.about_item_second {
+    background: #C4E769;
+}
+
+.about_item_third {
+    background: #62D0DF;
+}
+
+.about_item_fourth {
+    background: #0052C1;
+}
+
+.about_item p {
+    display: inline-block;
+    color: white;
+    width: 255px;
+    font-size: 32px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+}
+
+.about_middle {
+    padding-bottom: 120px;
+}
+
+.sport_row {
+    display: flex;
+}
+
+.sport_item {
+    min-height: 480px;
+    min-width: 33.333%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sport_first {
+    background: #22356F;
+}
+
+.sport_second {
+    background: #0052C1;
+}
+
+.sport_third {
+    background: url(img/strawberry.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sport_fourth {
+    background: #62D0DF;
+}
+
+.sport_fifth {
+    background: #DEE1FF;
+}
+
+.sport_sixth {
+    background: #8F00FF;
+}
+
+.sport_item span {
+    display: inline-block;
+    width: 340px;
+    height: 72px;
+    border-bottom: 1px solid white;
+}
+
+.sport_item p {
+    display: inline-block;
+    color: white;
+    width: 255px;
+    font-size: 32px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+}
+
+.sport_list {
+    padding-bottom: 77px;
+}
+
+.type_row {
+    display: flex;
+}
+
+.type_item {
+    min-height: 240px;
+    min-width: 33.333%;
+    padding-top: 55px;
+    padding-left: 60px;
+}
+
+.type_item h3 {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 28px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.type_item p {
+    max-width: 298px;
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.help {
+    display: flex;
+}
+
+.help_text h2 {
+    padding-top: 103px;
+    padding-left: 106px;
+    font-size: 16px;
+    color: #22356F;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 12px;
+}
+
+.help_text p {
+    width: 676px;
+    height: 215px;
+    line-height: 53px;
+    color: #22356F;
+    font-size: 36px;
+    padding-top: 225px;
+    padding-left: 106px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+}
+
+.colortext {
+    color: #62D0DF;
+}
+
+.help_text h3 {
+    padding-top: 202px;
+    padding-left: 106px;
+    text-transform: uppercase;
+    color: #FAB63E;
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.contact_us {
+    padding-left: 180px;
+    background-color: #22356F;
+}
+
+.contact_us h2 {
+    padding-top: 71px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+}
+
+.contact_us h1 {
+    padding-top: 230px;
+    font-size: 64px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white;
+}
+
+.contact_us p {
+    padding-top: 75px;
+    font-size: 36px;
+    line-height: 53px;
+    color: white;
+    width: 579px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.contact_us h3 {
+    padding-top: 75px;
+    font-size: 16px;
+    color: #62D0DF;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding-bottom: 50px;
+}
+
+.blackman {
+    margin-left: 60.79%;
+    position: absolute;
+    margin-top: -800px;
+}
+
+.info_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_item h3 {
+    padding-top: 98px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #22356F
+}
+
+.info_item p {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    color: rgba(34, 53, 111, 0.5);
+}
+
+.info_item_first {
+    padding-left: 68px;
+    width: 207px;
+}
+
+.info_item_first p {
+    padding-top: 30px;
+    width: 207px;
+    line-height: 23px;
+}
+
+.info_item_second p {
+    width: 240px;
+    line-height: 23px;
+    padding-top: 30px;
+}
+
+.info_item_third {
+    width: 240px;
+}
+
+.info_item_third p {
+    padding-top: 30px;
+    line-height: 23px;
+}
+
+.footer_copyright {
+    padding-top: 32px;
+    padding-left: 194px;
+    color: white;
+    background: #62D0DF;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-bottom: 32px;
+}
